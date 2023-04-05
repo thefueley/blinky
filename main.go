@@ -28,7 +28,7 @@ func qAlbums() {
     defer dev.Close()
 
     dev.SetColor(RED)
-    time.Sleep(2 * time.Second)
+    time.Sleep(100 * time.Millisecond)
   }
 }
 
@@ -43,7 +43,7 @@ func qAlbumByID() {
     defer dev.Close()
 
     dev.SetColor(GREEN)
-    time.Sleep(2 * time.Second)
+    time.Sleep(100 * time.Millisecond)
   }
 }
 
